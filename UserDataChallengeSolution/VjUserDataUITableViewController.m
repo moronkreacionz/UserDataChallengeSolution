@@ -7,6 +7,7 @@
 //
 
 #import "VjUserDataUITableViewController.h"
+#import "VjUserData.h"
 
 @interface VjUserDataUITableViewController ()
 
@@ -22,7 +23,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    NSArray * usersArray = [VjUserData getUsers];
+    NSLog(@"%@", usersArray);
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -46,7 +52,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UserDataCell" forIndexPath:indexPath];
     
     // Configure the cell...
-    
+    cell.textLabel.text = @".."; 
     return cell;
 }
 

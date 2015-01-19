@@ -14,6 +14,15 @@
 		ABF0DDB51A6D38300025DBD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDB31A6D38300025DBD4 /* LaunchScreen.xib */; };
 		ABF0DDC11A6D38300025DBD4 /* UserDataChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF0DDC01A6D38300025DBD4 /* UserDataChallengeSolutionTests.m */; };
 		ABF0DDCC1A6D386E0025DBD4 /* VjUserDataUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF0DDCB1A6D386E0025DBD4 /* VjUserDataUITableViewController.m */; };
+		ABF0DDD01A6D39DC0025DBD4 /* VjUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF0DDCF1A6D39DC0025DBD4 /* VjUserData.m */; };
+		ABF0DDDA1A6D3E4D0025DBD4 /* person1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD21A6D3E4D0025DBD4 /* person1.jpg */; };
+		ABF0DDDB1A6D3E4D0025DBD4 /* person2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD31A6D3E4D0025DBD4 /* person2.jpg */; };
+		ABF0DDDC1A6D3E4D0025DBD4 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD41A6D3E4D0025DBD4 /* person3.jpg */; };
+		ABF0DDDD1A6D3E4D0025DBD4 /* person4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD51A6D3E4D0025DBD4 /* person4.jpg */; };
+		ABF0DDDE1A6D3E4D0025DBD4 /* person5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD61A6D3E4D0025DBD4 /* person5.jpg */; };
+		ABF0DDDF1A6D3E4D0025DBD4 /* person6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD71A6D3E4D0025DBD4 /* person6.jpg */; };
+		ABF0DDE01A6D3E4D0025DBD4 /* person7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD81A6D3E4D0025DBD4 /* person7.jpg */; };
+		ABF0DDE11A6D3E4D0025DBD4 /* person8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABF0DDD91A6D3E4D0025DBD4 /* person8.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,16 @@
 		ABF0DDC01A6D38300025DBD4 /* UserDataChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataChallengeSolutionTests.m; sourceTree = "<group>"; };
 		ABF0DDCA1A6D386E0025DBD4 /* VjUserDataUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VjUserDataUITableViewController.h; sourceTree = "<group>"; };
 		ABF0DDCB1A6D386E0025DBD4 /* VjUserDataUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VjUserDataUITableViewController.m; sourceTree = "<group>"; };
+		ABF0DDCE1A6D39DC0025DBD4 /* VjUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VjUserData.h; sourceTree = "<group>"; };
+		ABF0DDCF1A6D39DC0025DBD4 /* VjUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VjUserData.m; sourceTree = "<group>"; };
+		ABF0DDD21A6D3E4D0025DBD4 /* person1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpg; sourceTree = "<group>"; };
+		ABF0DDD31A6D3E4D0025DBD4 /* person2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpg; sourceTree = "<group>"; };
+		ABF0DDD41A6D3E4D0025DBD4 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		ABF0DDD51A6D3E4D0025DBD4 /* person4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpg; sourceTree = "<group>"; };
+		ABF0DDD61A6D3E4D0025DBD4 /* person5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person5.jpg; sourceTree = "<group>"; };
+		ABF0DDD71A6D3E4D0025DBD4 /* person6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person6.jpg; sourceTree = "<group>"; };
+		ABF0DDD81A6D3E4D0025DBD4 /* person7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person7.jpg; sourceTree = "<group>"; };
+		ABF0DDD91A6D3E4D0025DBD4 /* person8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person8.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		ABF0DDA31A6D38300025DBD4 /* UserDataChallengeSolution */ = {
 			isa = PBXGroup;
 			children = (
+				ABF0DDD11A6D39E00025DBD4 /* Model */,
 				ABF0DDCD1A6D38770025DBD4 /* ViewController */,
 				ABF0DDA81A6D38300025DBD4 /* AppDelegate.h */,
 				ABF0DDA91A6D38300025DBD4 /* AppDelegate.m */,
@@ -95,6 +115,7 @@
 		ABF0DDA41A6D38300025DBD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABF0DDE21A6D3E560025DBD4 /* people-faces */,
 				ABF0DDA51A6D38300025DBD4 /* Info.plist */,
 				ABF0DDA61A6D38300025DBD4 /* main.m */,
 			);
@@ -125,6 +146,30 @@
 				ABF0DDCB1A6D386E0025DBD4 /* VjUserDataUITableViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		ABF0DDD11A6D39E00025DBD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0DDCE1A6D39DC0025DBD4 /* VjUserData.h */,
+				ABF0DDCF1A6D39DC0025DBD4 /* VjUserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABF0DDE21A6D3E560025DBD4 /* people-faces */ = {
+			isa = PBXGroup;
+			children = (
+				ABF0DDD21A6D3E4D0025DBD4 /* person1.jpg */,
+				ABF0DDD31A6D3E4D0025DBD4 /* person2.jpg */,
+				ABF0DDD41A6D3E4D0025DBD4 /* person3.jpg */,
+				ABF0DDD51A6D3E4D0025DBD4 /* person4.jpg */,
+				ABF0DDD61A6D3E4D0025DBD4 /* person5.jpg */,
+				ABF0DDD71A6D3E4D0025DBD4 /* person6.jpg */,
+				ABF0DDD81A6D3E4D0025DBD4 /* person7.jpg */,
+				ABF0DDD91A6D3E4D0025DBD4 /* person8.jpg */,
+			);
+			name = "people-faces";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF0DDE01A6D3E4D0025DBD4 /* person7.jpg in Resources */,
+				ABF0DDDC1A6D3E4D0025DBD4 /* person3.jpg in Resources */,
+				ABF0DDDB1A6D3E4D0025DBD4 /* person2.jpg in Resources */,
+				ABF0DDE11A6D3E4D0025DBD4 /* person8.jpg in Resources */,
 				ABF0DDB01A6D38300025DBD4 /* Main.storyboard in Resources */,
+				ABF0DDDF1A6D3E4D0025DBD4 /* person6.jpg in Resources */,
 				ABF0DDB51A6D38300025DBD4 /* LaunchScreen.xib in Resources */,
+				ABF0DDDD1A6D3E4D0025DBD4 /* person4.jpg in Resources */,
+				ABF0DDDA1A6D3E4D0025DBD4 /* person1.jpg in Resources */,
+				ABF0DDDE1A6D3E4D0025DBD4 /* person5.jpg in Resources */,
 				ABF0DDB21A6D38300025DBD4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF0DDD01A6D39DC0025DBD4 /* VjUserData.m in Sources */,
 				ABF0DDCC1A6D386E0025DBD4 /* VjUserDataUITableViewController.m in Sources */,
 				ABF0DDAA1A6D38300025DBD4 /* AppDelegate.m in Sources */,
 				ABF0DDA71A6D38300025DBD4 /* main.m in Sources */,
