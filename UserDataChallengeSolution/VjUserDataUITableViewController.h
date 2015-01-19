@@ -10,4 +10,6 @@
 
 @interface VjUserDataUITableViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray * users;
+
 @end

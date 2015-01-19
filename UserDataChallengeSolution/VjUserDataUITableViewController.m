@@ -24,8 +24,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    NSArray * usersArray = [VjUserData getUsers];
-    NSLog(@"%@", usersArray);
+    self.users = [VjUserData getUsers];
+    NSLog(@"%@", self.users);
     
 }
 
