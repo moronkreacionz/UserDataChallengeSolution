@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VjUserDataUITableViewController.h
 //  UserDataChallengeSolution
 //
 //  Created by Vijay Mehta on 1/19/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface VjUserDataUITableViewController : UITableViewController
 
 @end
-
